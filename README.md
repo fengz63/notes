@@ -6,3 +6,5 @@
 [C&C++](#C&C++)
 
 [Go](#Go)
+
+[Rust](#Rust)
