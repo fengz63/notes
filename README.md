@@ -3,6 +3,8 @@
 
 维护更新中......
 ## 目录结构
+[Algorithm](https://github.com/fengz63/notes/tree/main/Algorithm)
+
 [C&C++](https://github.com/fengz63/notes/tree/main/C%26C%2B%2B)
 
 [Go](https://github.com/fengz63/notes/tree/main/Go)
