@@ -80,4 +80,8 @@ mmap虽然能减少一次数据拷贝，但是还是需要4次上下文切换：
 #### 2.3 Copy-on-Write
 写时拷贝技术，也算是一种零拷贝技术，其核心思想是：当有多个调用者都需要请求相同资源时，一开始资源只会有一份，多个调用者共同读取这一份资源，当某个调用者需要修改数据的时候，才会分配一块内存，将数据拷贝过去，供这个调用者使用，而其他调用者依然还是读取最原始的那份数据。每次有调用者需要修改数据时，就会重复一次拷贝流程，供调用者修改使用。
 
-更多参考：[linux零拷贝技术](https://mp.weixin.qq.com/s/1Hi4acZXyer0gnyxUGCDdg)
+更多参考：
+
+[零拷贝技术](https://www.cnblogs.com/xiaolincoding/p/13719610.html)
+
+[linux零拷贝技术](https://mp.weixin.qq.com/s/1Hi4acZXyer0gnyxUGCDdg)
